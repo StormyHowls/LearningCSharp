@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "M5DQAsjaRz0+/tbWeOsOAXAd6h6ZNjjj4/v1FRr4IdToAOJJM1+oZga030ggc5kaTRsRUS2Z25D0s6fsXY/j2w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ccrawford\\source\\repos\\Werewolf\\Werewolf.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ccrawford\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

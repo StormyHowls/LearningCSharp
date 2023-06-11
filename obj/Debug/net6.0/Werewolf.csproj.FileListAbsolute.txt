@@ -1,0 +1,17 @@
+C:\Users\ccrawford\source\repos\Werewolf\bin\Debug\net6.0\Werewolf.exe
+C:\Users\ccrawford\source\repos\Werewolf\bin\Debug\net6.0\Werewolf.deps.json
+C:\Users\ccrawford\source\repos\Werewolf\bin\Debug\net6.0\Werewolf.runtimeconfig.json
+C:\Users\ccrawford\source\repos\Werewolf\bin\Debug\net6.0\Werewolf.dll
+C:\Users\ccrawford\source\repos\Werewolf\bin\Debug\net6.0\Werewolf.pdb
+C:\Users\ccrawford\source\repos\Werewolf\obj\Debug\net6.0\Werewolf.csproj.AssemblyReference.cache
+C:\Users\ccrawford\source\repos\Werewolf\obj\Debug\net6.0\Werewolf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ccrawford\source\repos\Werewolf\obj\Debug\net6.0\Werewolf.AssemblyInfoInputs.cache
+C:\Users\ccrawford\source\repos\Werewolf\obj\Debug\net6.0\Werewolf.AssemblyInfo.cs
+C:\Users\ccrawford\source\repos\Werewolf\obj\Debug\net6.0\Werewolf.csproj.CoreCompileInputs.cache
+C:\Users\ccrawford\source\repos\Werewolf\obj\Debug\net6.0\Werewolf.dll
+C:\Users\ccrawford\source\repos\Werewolf\obj\Debug\net6.0\refint\Werewolf.dll
+C:\Users\ccrawford\source\repos\Werewolf\obj\Debug\net6.0\Werewolf.pdb
+C:\Users\ccrawford\source\repos\Werewolf\obj\Debug\net6.0\Werewolf.genruntimeconfig.cache
+C:\Users\ccrawford\source\repos\Werewolf\obj\Debug\net6.0\ref\Werewolf.dll
+C:\Users\ccrawford\source\repos\Werewolf\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\ccrawford\source\repos\Werewolf\obj\Debug\net6.0\Werewolf.csproj.CopyComplete

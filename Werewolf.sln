@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Werewolf", "Werewolf.csproj", "{4E38F894-A9C5-4967-B6A5-D7BE39DBA91F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E38F894-A9C5-4967-B6A5-D7BE39DBA91F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E38F894-A9C5-4967-B6A5-D7BE39DBA91F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E38F894-A9C5-4967-B6A5-D7BE39DBA91F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E38F894-A9C5-4967-B6A5-D7BE39DBA91F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3F64D76-0791-4EE1-9E4E-FED0C591085C}
+	EndGlobalSection
+EndGlobal
