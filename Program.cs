@@ -3,13 +3,15 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Text.Json.Serialization;
 using Werewolf.Adventure;
+using Werewolf.Adventures;
 using Werewolf.Engine;
 
 namespace Werewolf
 {
     internal class Program
     {
-        private static GameService gameService = new GameService();
+        private static AdventureService adventureService = new AdventureService();
+        private static GameService gameService = new GameService(adventureService);
 
         static void Main(string[] args)
         {
