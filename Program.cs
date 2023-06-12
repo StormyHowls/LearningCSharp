@@ -2,16 +2,17 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Text.Json.Serialization;
-using Werewolf.Adventure;
 using Werewolf.Adventures;
 using Werewolf.Engine;
+using Werewolf.Entities;
 
 namespace Werewolf
 {
     internal class Program
     {
         private static AdventureService adventureService = new AdventureService();
-        private static GameService gameService = new GameService(adventureService);
+        private static CharacterService characterService = new CharacterService();
+        private static GameService gameService = new GameService(adventureService, characterService);
 
         static void Main(string[] args)
         {
