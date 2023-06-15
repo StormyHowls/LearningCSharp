@@ -7,18 +7,19 @@ using Werewolf.Items.Interfaces;
 
 namespace Werewolf.Entities.Models
 {
-    public class Character
+    public class Character : Entity
     {
         public string Name;
         public int Level;
+        public Abilities Abilities;
         public int Gold;
-        public int Experiance;
         public string Background;
         public int InventoryWeight;
         public List<string> AdventuresPlayed;
         public bool IsAlive;
         public int ArmorClass;
         public List<IItem> Inventory;
+        public CharacterClass Class;
     }
 
     public class Abilities
@@ -29,6 +30,14 @@ namespace Werewolf.Entities.Models
         public int Intelligence;
         public int Wisdom;
         public int Charisma;
+    }
+
+    public enum CharacterClass
+    {
+        Fighter,
+        Thief,
+        Mage,
+        Healer
     }
 
 }

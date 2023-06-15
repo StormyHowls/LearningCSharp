@@ -3,18 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Werewolf.Adventures.Models;
 
 namespace Werewolf.Adventure
 {
     public class Game
     {
-        public string GUID { get; set; }
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public int CompletionXPReward { get; set; }
-        public int CompletionGoldReward { get; set; }
-        public int MaxLevel { get; set; }
-        public int MinimumLevel { get; set; }
+        public string GUID;
+        public string Title;
+        public string Description;
+        public int CompletionXPReward;
+        public int CompletionGoldReward;
+        public int MaxLevel;
+        public int MinimumLevel;
+        public List<Room> Rooms;
 
         public Game()
         {
