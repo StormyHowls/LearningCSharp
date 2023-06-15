@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Werewolf.Adventures.Models
+﻿namespace Werewolf.Adventures.Models
 {
-    internal class Objective
+    public class Objective
     {
+        public ObjectType ObjectType;
+    }
+
+    public enum ObjectType
+    {
+        MonstersInRoom,
+        AllMonsters,
+        ItemObtained
     }
 }

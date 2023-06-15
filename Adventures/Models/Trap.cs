@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Werewolf.Engine;
 
 namespace Werewolf.Adventures.Models
 {
     public class Trap
     {
         public TrapType trapType;
+        public Die DamageDie = Die.D4;
     }
     public enum TrapType
     {

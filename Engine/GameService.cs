@@ -1,17 +1,12 @@
-﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Werewolf.Adventure;
+﻿using Werewolf.Adventure;
 using Werewolf.Adventures.Interfaces;
+using Werewolf.Engine.Interfaces;
 using Werewolf.Entities.Interfaces;
 using Werewolf.Entities.Models;
 
 namespace Werewolf.Engine
 {
-    public class GameService
+    public class GameService : IGameService
     {
         private IAdventureService adventureService;
         private ICharacterService characterService;
@@ -26,22 +21,22 @@ namespace Werewolf.Engine
         {
             try
             {
-                if (adventure== null)
+                if (adventure == null)
                 {
-                Console.WriteLine("Welcome to your new life, cub...");
+                    Console.WriteLine("Welcome to your new life, cub...");
                     adventure = adventureService.GetInitialAdventure();
                 }
-                
+
 
 
                 Console.Clear();
                 Console.WriteLine();
 
                 //Create Title Banner
-                for (int i = 0; i <= adventure.Title.Length +3; i++)
+                for (int i = 0; i <= adventure.Title.Length + 3; i++)
                 {
                     Console.Write("*");
-                    if(i == adventure.Title.Length + 3)
+                    if (i == adventure.Title.Length + 3)
                     {
                         Console.Write("\n");
                     }
@@ -59,7 +54,7 @@ namespace Werewolf.Engine
                 Console.BackgroundColor = ConsoleColor.Black;
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine($"\n{adventure.Description.ToUpper()}");
-               
+
 
                 Console.BackgroundColor = ConsoleColor.Black;
                 Console.ForegroundColor = ConsoleColor.Red;
@@ -83,14 +78,14 @@ namespace Werewolf.Engine
 
                 }
                 character = characterService.LoadCharacter(charactersInRange[Convert.ToInt32(Console.ReadLine())].Name);
-                
+
                 //Console.WriteLine($"Adventure : {initialAdventure.Title}");
                 //Console.WriteLine($"Description : {initialAdventure.Description}");
                 Console.WriteLine($"Character Name : {character.Name}");
                 Console.WriteLine($"Level : {character.Level}");
 
-                Monster myMonster = new Monster();
-                
+                Monster myMonster = new Monster();// DOn't need - kill line
+
             }
             catch (Exception ex)
             {

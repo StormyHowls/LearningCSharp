@@ -5,5 +5,52 @@
   "CompletionXPReward": 250,
   "CompletionGoldReward": 100,
   "MaxLevel": 1,
-  "MinimumLevel": 1
+  "MinimumLevel": 1,
+  "Rooms": [
+    {
+      "RoomNumber": 1,
+      "Description": "You've made it! ENTRYWAY",
+      "Exits": [
+        {
+          "Locked": false,
+          "WallLocation": 0,
+          "LeadsToRoom":  2
+        },
+        {
+          "Locked": false,
+          "WallLocation": 0,
+          "LeadsToRoom": 3
+        }
+      ]
+
+    },
+    {
+      "RoomNumber": 2,
+      "Description": "Scary Room",
+      "Trap": {
+        "TrapType": 1
+      },
+      "Chest": {
+        "Gold" :  5
+      },
+      "Exits": [
+        {
+          "Locked": false,
+          "WallLocation": 2,
+          "LeadsToRoom": 1
+        }
+      ]
+    },
+    {
+      "RoomNumber": 3,
+      "Description": "LONG HALLWAY",
+      "Exits": [
+        {
+          "Locked": false,
+          "WallLocation": 3,
+          "LeadsToRoom": 1
+        }
+      ]
+    }
+  ]
 }

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Werewolf.Adventures.Models;
+﻿using Werewolf.Adventures.Models;
 
 namespace Werewolf.Adventure
 {
@@ -23,13 +18,5 @@ namespace Werewolf.Adventure
 
         }
 
-        /// <summary>
-        /// This class does this and that, but don't do this.
-        /// </summary>
-
-        public void myMethod()
-        {
-
-        }
     }
 }
